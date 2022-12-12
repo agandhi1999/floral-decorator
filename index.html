@@ -18,11 +18,17 @@
     <!-- Overlay -->
     <div class="overlay"></div>
     <!-- Image Container -->
-    <div class="logo">
-        <img src="./Logo.png" alt="Logo">
-    </div>
+    <nav class="nav-items">
+        <div class="links">
+            <a class="navlink" href="#greeting">Home</a>
+            <a class="navlink" href="#description">About</a>
+            <a class="navlink" href="#gallery-title">Gallery</a>
+            <a class="navlink" href="#contact">Contact</a>
+        </div>
+        <img src="./Logo.png" alt="Logo" id="logo">
+    </nav>
     <!-- Hello -->
-    <div class="greeting">
+    <div class="jump" id="greeting">
         <h2>Hello there!</h2>
         <h2>I'm Nupur Chhabria</h2>
         <h2>Welcome to my Website!</h2>
@@ -33,15 +39,15 @@
         <img src="./Images/Floral-Image-1.jpg" alt="Floral Design Image" id="floral-img-1" class="frame">
         
         <!-- Add Description -->
-        <div class="description">
-            <h2>About Me</h2>
+        <div class="description" >
+            <h2 class="jump" id="description">About Me</h2>
             <p id="introduction">I am a floral designer with over 8 years of work experience. I have a passion for creating beautiful and unique arrangements using a variety of flowers and plants. Whether it's a simple bouquet for a special occasion or a grand floral installation for a wedding or event, I love bringing my clients' vision to life. With my extensive knowledge of color, texture, and form, I am able to create stunning designs that truly capture the essence of each event. I am excited to share my passion and expertise with you and look forward to creating something truly special for your next occasion.
             </p>
         </div>
     </div>
     <!-- Gallery -->
     <div class="gallery-container">
-        <h2 class="gallery-title">Gallery</h2>
+        <h2 class="gallery-title jump" id="gallery-title">Gallery</h2>
         <!-- Add Description -->
         <div class="gallery-images">
             <a href="./Images/Floral-Image-2.jpg"><img src="./Images/Floral-Image-2.jpg" alt="Floral Design Image" id="floral-img-2"  class="gallery-image"></a> 
@@ -59,7 +65,7 @@
         </div>
     </div>
     <!-- Add the contact section -->
-    <footer class="footer">
+    <footer class="footer" id="contact">
         <h2>Contact</h2>
         <p class="contact">Email: nupurchhabria11@gmail.com</p>
 
