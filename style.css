@@ -222,6 +222,9 @@ p {
         width: 30vw;
     }
   }
+
+  /* Media Queries for different screen sizes */
+
   @media screen and (max-width: 860px) {
       .links {
           justify-content: center;
@@ -257,5 +260,22 @@ p {
     }
     .contact {
         font-size: 16px;
+    }
+  }
+
+  /* Mobile Orientation Horizontal */
+  @media screen and (max-height: 400px) {
+    .nav-items {
+        height: 100px;
+    } 
+    .jump::before { 
+        margin-top: 120px;
+        height: -120px 0 0; 
+      }
+      #logo {
+        width: 140px;
+    }
+    .navlink {    
+        font-size: 15px;
     }
   }
