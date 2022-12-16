@@ -264,7 +264,7 @@ p {
   }
 
   /* Mobile Orientation Horizontal */
-  @media screen and (max-height: 400px) {
+  @media screen and (max-height: 500px) {
     .nav-items {
         height: 100px;
     } 
