@@ -275,6 +275,12 @@ p {
 
   /* Mobile Orientation Horizontal */
   @media screen and (max-height: 500px) {
+    h2 {
+        font-size: 20px;
+    }
+    p {
+        font-size: 16px;
+    }
     .nav-items {
         height: 100px;
     } 
@@ -287,5 +293,8 @@ p {
     }
     .navlink {    
         font-size: 15px;
+    }
+    .contact {
+        font-size: 20px;
     }
   }
